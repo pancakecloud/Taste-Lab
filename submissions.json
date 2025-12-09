@@ -43,5 +43,15 @@
     "taste": "sour",
     "sound": "sour",
     "texture": "bitter"
+  },
+  {
+    "taste": "sweet",
+    "sound": "sweet",
+    "texture": "sweet"
+  },
+  {
+    "taste": "sour",
+    "sound": "bitter",
+    "texture": "salty"
   }
 ]

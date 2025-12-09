@@ -1,32 +1,130 @@
-<form id="tasteForm">
-  <label>Taste:
-    <select name="taste">
-      <option value="sweet">Sweet</option>
-      <option value="sour">Sour</option>
-      <option value="bitter">Bitter</option>
-      <option value="salty">Salty</option>
-    </select>
-  </label>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taste Input</title>
+</head>
 
-  <label>Sound:
-    <select name="sound">
-      <option value="sweet">Sweet</option>
-      <option value="sour">Sour</option>
-      <option value="bitter">Bitter</option>
-      <option value="salty">Salty</option>
-    </select>
-  </label>
+<body>
+  <div class="container">
+    <h1 class="title">Taste Lab Input</h1>
 
-  <label>Texture:
-    <select name="texture">
-      <option value="sweet">Sweet</option>
-      <option value="sour">Sour</option>
-      <option value="bitter">Bitter</option>
-      <option value="salty">Salty</option>
-    </select>
-  </label>
+    <form id="tasteForm" class="form">
+      <div class="field">
+        <label>Taste</label>
+        <select name="taste">
+          <option value="sweet">Sweet</option>
+          <option value="sour">Sour</option>
+          <option value="bitter">Bitter</option>
+          <option value="salty">Salty</option>
+        </select>
+      </div>
 
-  <button type="submit">Submit</button>
-</form>
+      <div class="field">
+        <label>Sound</label>
+        <select name="sound">
+          <option value="sweet">Sweet</option>
+          <option value="sour">Sour</option>
+          <option value="bitter">Bitter</option>
+          <option value="salty">Salty</option>
+        </select>
+      </div>
 
-<script src="/js/form.js"></script>
+      <div class="field">
+        <label>Texture</label>
+        <select name="texture">
+          <option value="sweet">Sweet</option>
+          <option value="sour">Sour</option>
+          <option value="bitter">Bitter</option>
+          <option value="salty">Salty</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+
+  <style>
+    /* ---------- GLOBAL ---------- */
+body {
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ---------- CONTAINER ---------- */
+.container {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 18px;
+  width: 380px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+/* ---------- TITLE ---------- */
+.title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* ---------- FORM FIELDS ---------- */
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  background: #f7f7f7;
+  transition: 0.2s;
+}
+
+select:focus {
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 3px rgba(139,92,246,0.2);
+  outline: none;
+}
+
+/* ---------- BUTTON ---------- */
+.btn {
+  background: #8b5cf6;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #7c3aed;
+  transform: translateY(-2px);
+}
+
+  </style>
+
+  <script src="/js/form.js"></script>
+</body>
+</html>
