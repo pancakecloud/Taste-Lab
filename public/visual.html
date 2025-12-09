@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taste Visualisation</title>
+  <style>
+    body {
+      background: #111;
+      color: white;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    #canvas {
+       width: 100vw;      /* full viewport width */
+    height: 100vh;  
+      background: #222;
+      border-radius: 12px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .shape {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      opacity: 0.85;
+      transition: 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+<div id="canvas"></div>
+
+<script src="viz.js"></script>
+</body>
+</html>

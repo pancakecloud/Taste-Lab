@@ -1,0 +1,47 @@
+[
+  {
+    "taste": "sweet",
+    "sound": "sour",
+    "texture": "bitter"
+  },
+  {
+    "taste": "bitter",
+    "sound": "sour",
+    "texture": "salty"
+  },
+  {
+    "taste": "bitter",
+    "sound": "sour",
+    "texture": "sweet"
+  },
+  {
+    "taste": "bitter",
+    "sound": "sour",
+    "texture": "salty"
+  },
+  {
+    "taste": "bitter",
+    "sound": "salty",
+    "texture": "sweet"
+  },
+  {
+    "taste": "salty",
+    "sound": "bitter",
+    "texture": "sweet"
+  },
+  {
+    "taste": "sweet",
+    "sound": "sweet",
+    "texture": "sweet"
+  },
+  {
+    "taste": "sour",
+    "sound": "sour",
+    "texture": "sour"
+  },
+  {
+    "taste": "sour",
+    "sound": "sour",
+    "texture": "bitter"
+  }
+]
